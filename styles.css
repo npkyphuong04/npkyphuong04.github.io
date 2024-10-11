@@ -1,0 +1,101 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2024, 9:24:28 AM
+    Author     : kyphuong04
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 888px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center; /* Center the nav */
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    display: inline-block; /* Allow center alignment */
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+nav li{
+    display: inline-block; /* Display items inline */
+    margin: 2px 46px; /* Optional: Add spacing between items */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: #555;
+}
+
+main {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Picture Gallery Styles */
+gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+gallery figure {
+    margin: 20px;
+    text-align: center;
+}
+
+gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+gallery figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
